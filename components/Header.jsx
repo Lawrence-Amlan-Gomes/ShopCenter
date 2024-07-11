@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Menu from "../public/assets/svg/menu.svg";
-import BlackLogo from "../public/assets/lws-logo-black.svg";
+import BlackLogo from "../public/assets/icon1.png";
 import Avatar from "../public/assets/svg/avatar.svg";
 import SoppingCart from "../public/assets/svg/shopping-Cart.svg";
 import Link from "next/link";
@@ -13,7 +13,7 @@ export default function Header() {
           <Image src={Menu} alt="Menu" className=" w-5 h-5 lg:hidden mr-10" />
 
           <Link href="/">
-            <Image src={BlackLogo} alt="Logo" className="h-10 ml-[-30%]" />
+            <Image src={BlackLogo} alt="Logo" className="h-10 w-10 ml-[-30%]" />
           </Link>
         </div>
       </div>
